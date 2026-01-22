@@ -1,0 +1,208 @@
+[
+  {
+    "id": 1,
+    "title": "Deep Work Habits",
+    "author": "Cal Newport",
+    "price": 399,
+    "type": "Self-Help",
+    "image": "https://m.media-amazon.com/images/I/71din4TLubL._UF1000,1000_QL80_.jpg",
+    "description": "Focus deeply and achieve more in less time.",
+     "kind": "Paid"
+  },
+
+  {
+    "id": 2,
+    "title": "Mindful Living",
+    "author": "Jason Hemlock",
+    "price": 199,
+    "type": "Self-Help",
+    "image": "https://m.media-amazon.com/images/I/61WwRUzNEAL._AC_UF1000,1000_QL80_.jpg",
+    "description": "Practical tips to live a balanced and mindful life.",
+     "kind": "Paid"
+  },
+  {
+    "id": 3,
+    "title": "The Mystery of the Old Manor House",
+    "author": "Olive Braun",
+    "price": 299,
+    "type": "Fiction",
+    "image": "https://eforybooks.uk/cdn/shop/files/67T_Neu_EN.png?v=1704398889&width=1200",
+    "description": "A thrilling mystery that will keep you on the edge of your seat.",
+     "kind": "Paid"
+  },
+
+  {
+    "id": 4,
+    "title": "The Art of Storytelling",
+    "author": "John Walsh",
+    "price": 299,
+    "type": "Fiction",
+    "image": "https://m.media-amazon.com/images/I/91hGeWjZolL._SY342_.jpg",
+    "description": "Unlock the secrets of writing captivating stories.",
+     "kind": "Paid"
+  },
+
+  {
+    "id": 5,
+    "title": "Digital Photography Essentials",
+    "author": "Sreekumar V T",
+    "price": 349,
+    "type": "Photography",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR9m3jHaTsvpoFoMg7N7THvcS2eG0tz93hEyLg64ACAllXIG1oOHdRBFCGkEZ6An14RU84gRRzxg9kls7A3rO1J45N70oL0OKN7p6q2hNSbFoA8hI8J4MM3Zw",
+    "description": "Learn to take professional photos with any camera.",
+     "kind": "Paid"
+  },
+  {
+    "id": 6,
+    "title": "Mastering React",
+    "author": "Adam Horton",
+    "price": 499,
+    "type": "Programming",
+    "image": "https://m.media-amazon.com/images/I/619HJDI9nSL._AC_UF1000,1000_QL80_.jpg",
+    "description": "Learn React from scratch and build professional web apps.",
+     "kind": "Paid"
+  },
+
+  {
+    "id": 7,
+    "title": "JavaScript: The Comprehensive Guide",
+    "author": "Philip Ackermann",
+    "price": 549,
+    "type": "Programming",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQr9Tm9ok4J9ghER45ZTU0esf_bXFpdju9KR9VsJLgoaPo38pb53jA1JpO3hMMolEChfAUyoWGLzq5uj9C4aPcgTcVQ_e0WeX3CFAqCm8nf6QZtdKwi_5vONe-O5tT7Kg&usqp=CAc",
+    "description": "Master JavaScript with practical examples and projects.",
+     "kind": "Paid"
+  },
+  {
+    "id": 8,
+    "title": "Ultimate Tailwind CSS",
+    "author": "Kartik Bhat",
+    "price": 399,
+    "type": "Web Design",
+    "image": "https://m.media-amazon.com/images/I/71hqGGxGsOL._AC_UF1000,1000_QL80_.jpg",
+    "description": "Design stunning websites using CSS and Tailwind CSS.",
+     "kind": "Paid"
+  },
+
+  {
+    "id": 9,
+    "title": "The Design of Everyday Things",
+    "author": "Dor Norman",
+    "price": 449,
+    "type": "Web Design",
+    "image": "https://m.media-amazon.com/images/I/61PjmqAyQAL._SY342_.jpg",
+    "description": "Learn the principles of creating user-friendly web designs.",
+     "kind": "Paid"
+  },
+  {
+    "id": 10,
+    "title": "Meditation and its Methods",
+    "author": "Swami Vivekananda",
+    "price": 199,
+    "type": "Self-Help",
+    "image": "https://m.media-amazon.com/images/I/81lw3sDBxIL._SY342_.jpg",
+    "description": "Simple meditation techniques to reduce stress and improve focus.",
+     "kind": "Paid"
+  },
+  {
+    "id": 11,
+    "title": "Landscape Photography Masterclass",
+    "author": "Joe Cornish",
+    "price": 399,
+    "type": "Photography",
+    "image": "https://m.media-amazon.com/images/I/512nk8Q9cWL._SY342_.jpg",
+    "description": "Capture stunning landscapes like a professional photographer.",
+     "kind": "Paid"
+  },
+  {
+    "id": 12,
+    "title": "Creative Writing Secrets",
+    "author": "Swati Pal",
+    "price": 349,
+    "type": "Fiction",
+    "image": "https://m.media-amazon.com/images/I/71mkBeyafGL._SY342_.jpg",
+    "description": "Improve your writing skills and unleash your creativity.",
+     "kind": "Paid"
+  },
+
+  {
+    "id": 13,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "price": 499,
+    "type": "Self-Help",
+    "image": "https://m.media-amazon.com/images/I/91bYsX41DVL._SY342_.jpg",
+    "description": "Build good habits, break bad ones, and master the art of continuous improvement.",
+     "kind": "Paid"
+  },
+  {
+    "id": 14,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "price": 699,
+    "type": "Programming",
+    "image": "https://m.media-amazon.com/images/I/41jEbK-jG+L._SY344_BO1,204,203,200_.jpg",
+    "description": "A handbook of agile software craftsmanship for writing clean and maintainable code.",
+     "kind": "Paid"
+  },
+  {
+    "id": 15,
+    "title": "You Can Win",
+    "author": "Shiv Khera",
+    "price": 299,
+    "type": "Self-Help",
+    "image": "https://m.media-amazon.com/images/I/81oPjC+DDuL._AC_UF1000,1000_QL80_.jpg",
+    "description": "A practical guide to achieving success and personal growth.",
+     "kind": "Paid"
+  },
+  {
+    "id": 16,
+    "title": "Eloquent JavaScript",
+    "author": "Marijn Haverbeke",
+    "price": 599,
+    "type": "Programming",
+    "image": "https://m.media-amazon.com/images/I/51b7XbfMIIL._SY344_BO1,204,203,200_.jpg",
+    "description": "A modern introduction to JavaScript, programming, and problem-solving.",
+     "kind": "Paid"
+  },
+  {
+    "id": 17,
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert T. Kiyosaki",
+    "price": 399,
+    "type": "Finance",
+    "image": "https://m.media-amazon.com/images/I/81bsw6fnUiL._SY342_.jpg",
+    "description": "What the rich teach their kids about money that the poor and middle class do not.",
+     "kind": "Paid"
+  },
+  {
+    "id": 18,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "price": 299,
+    "type": "Fiction",
+    "image": "https://m.media-amazon.com/images/I/71aFt4+OTOL._SY342_.jpg",
+    "description": "A magical story about following your dreams and listening to your heart.",
+     "kind": "Paid"
+  },
+  {
+    "id": 19,
+    "title": "Design Patterns",
+    "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+    "price": 799,
+    "type": "Programming",
+    "image": "https://m.media-amazon.com/images/I/81gtKoapHFL._SY342_.jpg",
+    "description": "Elements of reusable object-oriented software design.",
+     "kind": "Paid"
+  },
+  {
+    "id": 20,
+    "title": "Think Like a Monk",
+    "author": "Jay Shetty",
+    "price": 399,
+    "type": "Self-Help",
+    "image": "https://m.media-amazon.com/images/I/81s6DUyQCZL._SY342_.jpg",
+    "description": "Train your mind for peace, purpose, and clarity every day.",
+     "kind": "Paid"
+  }
+]

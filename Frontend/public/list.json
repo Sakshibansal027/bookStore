@@ -1,0 +1,111 @@
+[
+  {
+    "id": 1,
+    "name": "Comedy Book",
+    "title": "Three Men in a Boat",
+    "author": "Jerome K. Jerome",
+    "type": "Comedy",
+    "category": "Free",
+    "price": "0$",
+    "image": "https://cdn.kobo.com/book-images/1f902aea-bc22-4a9b-9e28-0a7c6614b001/1200/1200/False/three-men-in-a-boat-102.jpg",
+    "description": "A humorous story about three friends whose boating trip turns into a series of funny and memorable adventures.",
+    "kind": "Free"
+  },
+  {
+    "id": 2,
+    "name": "Fiction Book",
+    "title": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "type": "Fiction",
+    "category": "Free",
+    "price": "0$",
+    "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9780689837593/alices-adventures-in-wonderland-9780689837593_lg.jpg",
+    "description": "A fantasy tale of a young girl who enters a magical world full of strange creatures and imaginative surprises.",
+     "kind": "Free"
+    
+  },
+  {
+    "id": 3,
+    "name": "Horror Book",
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "type": "Horror",
+    "category": "Free",
+    "price": "0$",
+    "image": "https://m.media-amazon.com/images/M/MV5BZGVlYTdhYzQtYWVmMi00OTJmLTkyYmYtMWRiMTgyMmY2MjEyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "description": "A chilling gothic novel that tells the story of Count Dracula and his dark, terrifying influence.",
+     "kind": "Free"
+  },
+  {
+    "id": 4,
+    "name": "Science Fiction Book",
+    "title": "The Time Machine",
+    "author": "H. G. Wells",
+    "type": "Sci-Fi",
+    "category": "Free",
+    "price": "0$",
+    "image": "https://m.media-amazon.com/images/I/A1QseKXSbuL._AC_UF1000,1000_QL80_.jpg",
+    "description": "A science fiction classic about time travel and a journey into the distant future of human civilization.",
+     "kind": "Free"
+  },
+  {
+    "id": 5,
+    "name": "Mystery Book",
+    "title": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "type": "Mystery",
+    "category": "Free",
+    "price": "0$",
+    "image": "https://m.media-amazon.com/images/I/71tvs98+5vL._AC_UF1000,1000_QL80_.jpg",
+    "description": "A collection of detective stories featuring Sherlock Holmes solving mysteries with sharp logic and observation.",
+     "kind": "Free"
+  },
+  {
+    "id": 6,
+    "name": "Romance Book",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "type": "Romance",
+    "category": "Free",
+    "price": "0$",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTA1NDQ3NTcyOTNeQTJeQWpwZ15BbWU3MDA0MzA4MzE@._V1_.jpg",
+    "description": "A romantic novel exploring love, society, and misunderstandings through the relationship of Elizabeth Bennet and Mr. Darcy.",
+     "kind": "Free"
+  },
+  {
+    "id": 7,
+    "name": "Classic Story Book",
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "type": "Classic",
+    "category": "Free",
+    "price": "0$",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ElIS3L-ojeSoeoELGVWOF8514ZdD75c1vg&s",
+    "description": "A philosophical story about vanity and morality, where a man remains young while his portrait bears the cost of his sins.",
+     "kind": "Free"
+  },
+  {
+    "id": 8,
+    "name": "Adventure Book",
+    "title": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "type": "Adventure",
+    "category": "Free",
+    "price": "0$",
+    "image": "https://m.media-amazon.com/images/I/71fi+jN6QpS._UF1000,1000_QL80_.jpg",
+    "description": "An exciting adventure of pirates, hidden treasure, and a thrilling sea journey.",
+     "kind": "Free"
+  },
+  {
+    "id": 9,
+    "name": "Story Book",
+    "title": "The Secret Garden",
+    "author": "Frances Hodgson Burnett",
+    "type": "Classic",
+    "category": "Free",
+    "price": "0$",
+    "image": "https://m.media-amazon.com/images/I/71yW1vXD2xL.jpg",
+    "description": "A heartwarming story about a hidden garden that brings friendship, healing, and happiness into the lives of children.",
+     "kind": "Free"
+  }
+]
