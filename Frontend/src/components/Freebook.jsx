@@ -1,11 +1,27 @@
 import React from 'react'
-import list from "../../public/list.json"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Cards from './cards';
+import axios from 'axios';
+import { useState } from 'react';
+import { useEffect } from 'react';
 
 function Freebook() {
+    const [book, setBook] = useState([]);
+    useEffect(() => {
+        const getBook = async () => {
+            try {
+                const response = await axios.get("http://localhost:5000/book/free");
+                console.log(response.data);
+                setBook(response.data);
+            }
+            catch (error) {
+                console.log("Error in fetching book data :", error.message);
+            }
+        }
+        getBook();
+    }, [])
     var settings = {
         dots: true,
         infinite: false,
@@ -40,15 +56,11 @@ function Freebook() {
             }
         ]
     };
-    const filterData = list.filter((data) =>
-        data.category === "Free"
-    );
-    console.log(filterData);
     return (
         <div className='max-w-screen-2xl container mx-auto md:px-20 px-4 space-y-2'>
             <h1 class=" text-2xl md:text-4xl mt-1 font-extrabold text-gray-350 mb-10 relative inline-block ">
                 Explore Free Books
-                <span class="absolute left-0 -bottom-2 w-full h-0.5 bg-pink-500 rounded"></span>
+                <span className="absolute left-0 -bottom-2 w-full h-0.5 bg-pink-500 rounded"></span>
             </h1>
             <p class="text-gray-600 text-sm md:text-base max-w-2xl">
                 Explore a rich library of free books from various genres including
@@ -59,7 +71,7 @@ function Freebook() {
             <div>
                 <div className="slider-container">
                     <Slider {...settings}>
-                        {filterData.map((item) => (
+                        {book.map((item) => (
                             <Cards item={item} key={item.id} />
                         ))}
 

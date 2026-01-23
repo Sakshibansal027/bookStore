@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function About() {
   return (
     <div className="min-h-screen bg-linear-to-br from-black via-gray-900 to-black px-4 py-20">
@@ -66,7 +66,10 @@ function About() {
             <li>Secure and reliable access</li>
           </ul>
         </div>
-
+        <Link to="/">
+          <button className="mt-8 px-6 py-3 bg-pink-500 hover:bg-pink-600 text-white font-semibold rounded-lg shadow-lg transition duration-300">
+            Back to Home
+          </button></Link>
       </div>
     </div>
   );

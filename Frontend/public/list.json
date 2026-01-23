@@ -1,9 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Comedy Book",
     "title": "Three Men in a Boat",
-    "author": "Jerome K. Jerome",
     "type": "Comedy",
     "category": "Free",
     "price": "0$",
@@ -13,9 +11,7 @@
   },
   {
     "id": 2,
-    "name": "Fiction Book",
     "title": "Alice's Adventures in Wonderland",
-    "author": "Lewis Carroll",
     "type": "Fiction",
     "category": "Free",
     "price": "0$",
@@ -26,9 +22,7 @@
   },
   {
     "id": 3,
-    "name": "Horror Book",
     "title": "Dracula",
-    "author": "Bram Stoker",
     "type": "Horror",
     "category": "Free",
     "price": "0$",
@@ -38,9 +32,7 @@
   },
   {
     "id": 4,
-    "name": "Science Fiction Book",
     "title": "The Time Machine",
-    "author": "H. G. Wells",
     "type": "Sci-Fi",
     "category": "Free",
     "price": "0$",
@@ -50,9 +42,7 @@
   },
   {
     "id": 5,
-    "name": "Mystery Book",
     "title": "The Adventures of Sherlock Holmes",
-    "author": "Arthur Conan Doyle",
     "type": "Mystery",
     "category": "Free",
     "price": "0$",
@@ -62,9 +52,7 @@
   },
   {
     "id": 6,
-    "name": "Romance Book",
     "title": "Pride and Prejudice",
-    "author": "Jane Austen",
     "type": "Romance",
     "category": "Free",
     "price": "0$",
@@ -74,9 +62,7 @@
   },
   {
     "id": 7,
-    "name": "Classic Story Book",
     "title": "The Picture of Dorian Gray",
-    "author": "Oscar Wilde",
     "type": "Classic",
     "category": "Free",
     "price": "0$",
@@ -86,9 +72,7 @@
   },
   {
     "id": 8,
-    "name": "Adventure Book",
     "title": "Treasure Island",
-    "author": "Robert Louis Stevenson",
     "type": "Adventure",
     "category": "Free",
     "price": "0$",
@@ -98,9 +82,7 @@
   },
   {
     "id": 9,
-    "name": "Story Book",
     "title": "The Secret Garden",
-    "author": "Frances Hodgson Burnett",
     "type": "Classic",
     "category": "Free",
     "price": "0$",

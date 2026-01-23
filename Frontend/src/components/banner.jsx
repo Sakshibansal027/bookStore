@@ -14,29 +14,10 @@ function Banner() {
                             offers a curated collection across genres to help you explore new ideas,
                             sharpen your skills, and grow smarter every day.
                         </p>
-
+                        <p className="mt-4 md:text-lg text-gray-200 text-basemax-w-2xl leading-relaxed italic">“A reader lives a thousand lives before he dies…” – <span className='text-pink-400'>George R.R. Martin</span>
+                        </p>
                         <div className="flex flex-col gap-4">
-                            <label className="input validator hover:border-none focus-within:border-none focus-within:ring-0 md:w-xl">
-                                <svg
-                                    className="h-[1em] opacity-50"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24"
-                                >
-                                    <g
-                                        strokeLinejoin="round"
-                                        strokeLinecap="round"
-                                        strokeWidth="2.5"
-                                        fill="none"
-                                        stroke="currentColor"
-                                    >
-                                        <rect width="20" height="16" x="2" y="4" rx="2"></rect>
-                                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
-                                    </g>
-                                </svg>
-                                <input type="email" placeholder="Enter your email to login" required />
-                            </label>
 
-                            <div className="validator-hint hidden">Enter valid email address</div>
 
                             <a className="btn btn-secondary w-fit relative overflow-hidden px-7 py-4 rounded-xl font-semibold text-white sm:mb-4
                                                  bg-linear-to-r from-pink-400 via-pink-500 to-purple-500

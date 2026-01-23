@@ -1,8 +1,25 @@
 import React from 'react'
-import list from '../../public/paidList.json'
 import Cards from './cards'
+import axios from 'axios'
+import { useState } from 'react'
+import { useEffect } from 'react';
+
 
 function Course() {
+  const [book, setBook] = useState([]);
+  useEffect(() => {
+    const getBook = async () => {
+      try {
+        const response = await axios.get("http://localhost:5000/book/course");
+        console.log(response.data);
+        setBook(response.data);
+      }
+      catch (error) {
+        console.log("Error in fetching book data :", error.message);
+      }
+    }
+    getBook();
+  }, [])
   return (
     <div className='max-w-screen-2xl min-h-screen container mx-auto md:px-20 px-4 bg-white dark:bg-gray-950 text-black dark:text-white'>
       <div className="pt-24">
@@ -14,8 +31,8 @@ function Course() {
           <a className="bg-pink-600 text-white p-2 rounded-md hover:bg-pink-500 duration-300 cursor-pointer px-4 " href="/">Back</a>
         </div>
         <div className='grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-9 mt-10 mb-10 '>
-          {list.map((item) => (
-           <Cards key={item.id} item={item} />
+          {book.map((item) => (
+            <Cards key={item.id} item={item} />
           ))}
         </div>
       </div>
