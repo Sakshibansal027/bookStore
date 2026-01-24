@@ -4,13 +4,6 @@
   "description": "mern project",
   "homepage": "https://github.com/Sakshibansal027/bookStore#readme",
   "type": "module",
-  "bugs": {
-    "url": "https://github.com/Sakshibansal027/bookStore/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sakshibansal027/bookStore.git"
-  },
   "license": "ISC",
   "author": "Sakshi",
   "main": "index.js",
