@@ -24,7 +24,7 @@ function Signup() {
       password: data.password
     };
     try {
-      const res = await axios.post("http://localhost:5000/user/signup", userInfo)
+      const res = await axios.post("https://book-store-coral-nine.vercel.app/", userInfo)
       if (res.data) {
         toast.success("Signup Successful");
         setAuthUser(res.data.user);
