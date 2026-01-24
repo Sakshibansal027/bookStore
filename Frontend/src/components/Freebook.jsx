@@ -12,7 +12,7 @@ function Freebook() {
     useEffect(() => {
         const getBook = async () => {
             try {
-                const response = await axios.get("http://localhost:5000/book/free");
+                const response = await axios.get("https://book-store-coral-nine.vercel.app/");
                 console.log(response.data);
                 setBook(response.data);
             }
