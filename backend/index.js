@@ -7,7 +7,7 @@ import userRoute from "./route/user.route.js";
 
 const app = express();
 app.use(cors({
-  origin:["https://app.netlify.com/projects/bookstore4u/deploys/69750bdcf8d852f8768979fc"]
+  origin:["https://6975e1a139690ef2e51e9c43--bookstore4u.netlify.app/"],credentials:true
 }));
 app.use(express.json());
 import dotenv from "dotenv";
