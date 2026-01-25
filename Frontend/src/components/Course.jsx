@@ -5,12 +5,13 @@ import { useState } from 'react'
 import { useEffect } from 'react';
 
 
+
 function Course() {
   const [book, setBook] = useState([]);
   useEffect(() => {
     const getBook = async () => {
       try {
-        const response = await axios.get("https://bookstore-backend-7nxd.onrender.com/paidBook/course");
+        const response = await axios.get(`${import.meta.env.VITE_API_URL}/paidBook/course`);
         console.log(response.data);
         setBook(response.data);
       }

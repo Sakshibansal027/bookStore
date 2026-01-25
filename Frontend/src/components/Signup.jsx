@@ -6,6 +6,7 @@ import axios from 'axios';
 import toast from 'react-hot-toast';
 import { useAuth } from "../context/AuthProvider";
 
+
 function Signup() {
   const location=useLocation();
   const navigate = useNavigate();
@@ -24,7 +25,7 @@ function Signup() {
       password: data.password
     };
     try {
-      const res = await axios.post("https://bookstore-backend-7nxd.onrender.com/user/signup", userInfo)
+      const res = await axios.post(`${import.meta.env.VITE_API_URL}/user/signup`, userInfo)
       if (res.data) {
         toast.success("Signup Successful");
         setAuthUser(res.data.user);

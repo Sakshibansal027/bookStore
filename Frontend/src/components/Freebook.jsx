@@ -6,13 +6,12 @@ import Cards from './cards';
 import axios from 'axios';
 import { useState } from 'react';
 import { useEffect } from 'react';
-
 function Freebook() {
     const [book, setBook] = useState([]);
     useEffect(() => {
         const getBook = async () => {
             try {
-                const response = await axios.get("https://bookstore-backend-7nxd.onrender.com/book/free");
+                const response = await axios.get(`${import.meta.env.VITE_API_URL}/book/free`);
                 console.log(response.data);
                 setBook(response.data);
             }

@@ -48,7 +48,7 @@ cd ../Frontend
 npm install
 Start the frontend server:
 npm start
-5.Open your browser and visit: http://localhost:5000 (or the port specified by Vite/React)
+<!-- 5.Open your browser and visit: http://localhost:5000 (or the port specified by Vite/React) -->
 
 ```bash
 book-store/
@@ -93,5 +93,3 @@ Hosting the app online for public access
 
 Screenshots:
 <img width="1913" height="894" alt="image" src="https://github.com/user-attachments/assets/36667e61-9f66-4634-b325-efe2fd210726" />
-
-

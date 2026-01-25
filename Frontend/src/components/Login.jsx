@@ -6,6 +6,7 @@ import toast from 'react-hot-toast';
 import { useAuth } from "../context/AuthProvider";
 
 
+
 function Login() {
     const navigate = useNavigate();
 const [authUser, setAuthUser] = useAuth();
@@ -24,7 +25,7 @@ const [authUser, setAuthUser] = useAuth();
         };
         try {
             const res = await axios.post(
-                "https://bookstore-backend-7nxd.onrender.com/user/login",
+                `${import.meta.env.VITE_API_URL}/user/login`,
                 userInfo
             );
 

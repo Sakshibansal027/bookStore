@@ -10,7 +10,8 @@ import { Toaster } from 'react-hot-toast';
 import { useAuth } from "../src/context/AuthProvider.jsx"
 
 function App() {
- const [authUser] = useAuth();
+  const [authUser] = useAuth();
+   console.log("API URL =", import.meta.env.VITE_API_URL);
 
 
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/about" element={<About />}></Route>
       </Routes>
       <Toaster />
+     
     </div>
 
 
