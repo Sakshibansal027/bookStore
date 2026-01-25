@@ -12,7 +12,7 @@ function Freebook() {
     useEffect(() => {
         const getBook = async () => {
             try {
-                const response = await axios.get("https://book-store-coral-nine.vercel.app/");
+                const response = await axios.get("https://book-store-coral-nine.vercel.app/book/free");
                 console.log(response.data);
                 setBook(response.data);
             }
@@ -72,7 +72,7 @@ function Freebook() {
                 <div className="slider-container">
                     <Slider {...settings}>
                         {book.map((item) => (
-                            <Cards item={item} key={item.id} />
+                            <Cards item={item} key={item._id} />
                         ))}
 
                     </Slider>

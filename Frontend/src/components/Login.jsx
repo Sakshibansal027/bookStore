@@ -24,7 +24,7 @@ const [authUser, setAuthUser] = useAuth();
         };
         try {
             const res = await axios.post(
-                "https://book-store-coral-nine.vercel.app/",
+                "https://book-store-coral-nine.vercel.app/user/login",
                 userInfo
             );
 

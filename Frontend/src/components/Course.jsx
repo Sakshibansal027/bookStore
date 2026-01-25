@@ -10,7 +10,7 @@ function Course() {
   useEffect(() => {
     const getBook = async () => {
       try {
-        const response = await axios.get("https://book-store-coral-nine.vercel.app/");
+        const response = await axios.get("https://book-store-coral-nine.vercel.app/paidBook/course");
         console.log(response.data);
         setBook(response.data);
       }
