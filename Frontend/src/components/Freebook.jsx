@@ -12,7 +12,7 @@ function Freebook() {
     useEffect(() => {
         const getBook = async () => {
             try {
-                const response = await axios.get("https://book-store-coral-nine.vercel.app/book/free");
+                const response = await axios.get("https://bookstore-backend-7nxd.onrender.com/book/free");
                 console.log(response.data);
                 setBook(response.data);
             }
