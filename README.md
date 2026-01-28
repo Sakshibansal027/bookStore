@@ -88,8 +88,7 @@ Advanced search and filter functionality
 
 Book rating & review system
 
-Hosting the app online for public access
-[https://github.com/your-username/bookStore](https://github.com/Sakshibansal027/bookStore)
+
 
 Screenshots:
 <img width="1913" height="894" alt="image" src="https://github.com/user-attachments/assets/36667e61-9f66-4634-b325-efe2fd210726" />
