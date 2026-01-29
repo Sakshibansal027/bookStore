@@ -11,7 +11,7 @@ import { useAuth } from "../src/context/AuthProvider.jsx"
 
 function App() {
   const [authUser] = useAuth();
-   console.log("API URL =", import.meta.env.VITE_API_URL);
+  //  console.log("API URL =", import.meta.env.VITE_API_URL);
 
 
   return (
