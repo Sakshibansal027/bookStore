@@ -51,21 +51,38 @@ npm start
 <!-- 5.Open your browser and visit: http://localhost:5000 (or the port specified by Vite/React) -->
 
 ```bash
+
 book-store/
 │
-├── backend/          # Node.js & Express backend
-│   ├── models/       # MongoDB models
-│   ├── routes/       # API routes
-│   └── server.js     # Main backend server
+├── backend/                 # Node.js & Express backend
+│   ├── config/              # DB config, env config
+│   │   └── db.js
+│   │
+│   ├── models/              # MongoDB schemas
+│   │   └── Book.js
+│   │
+│   ├── controllers/         # Business logic
+│   │   └── bookController.js
+│   │
+│   ├── routes/              # API routes
+│   │   └── bookRoutes.js
+│   │
+│   ├── middlewares/         # Auth, error handling etc.
+│   │   └── errorMiddleware.js
+│   │
+│   └── server.js            # Main backend entry point
 │
-├── frontend/         # React frontend
+├── frontend/                # React frontend
 │   ├── src/
-│   │   ├── components/ # Reusable components
-│   │   ├── pages/      # Application pages
+│   │   ├── components/      # Reusable components
+│   │   ├── pages/           # Pages (Home, Login, Books etc.)
+│   │   ├── services/        # API calls (axios)
 │   │   └── App.jsx
+│   │
 │   └── package.json
 │
 └── README.md
+
 ```
 Learning & Skills Gained
 
