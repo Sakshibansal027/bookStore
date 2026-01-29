@@ -109,3 +109,7 @@ Book rating & review system
 
 Screenshots:
 <img width="1913" height="894" alt="image" src="https://github.com/user-attachments/assets/36667e61-9f66-4634-b325-efe2fd210726" />
+<img width="1919" height="887" alt="image" src="https://github.com/user-attachments/assets/87c03a5c-1376-4e0f-a423-77d4a67eeff1" />
+<img width="325" height="609" alt="image" src="https://github.com/user-attachments/assets/d42bf9d0-41a1-4258-be94-606694260187" />
+
+
