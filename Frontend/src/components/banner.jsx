@@ -1,6 +1,6 @@
 import React from 'react'
 import banner from "../../src/assets/banner.png"
-
+import { Link } from "react-router-dom";
 function Banner() {
     return (
         <>
@@ -19,11 +19,14 @@ function Banner() {
                         <div className="flex flex-col gap-4">
 
 
-                            <a className="btn btn-secondary w-fit relative overflow-hidden px-7 py-4 rounded-xl font-semibold text-white sm:mb-4
-                                                 bg-linear-to-r from-pink-400 via-pink-500 to-purple-500
-                                                hover:scale-105 hover:shadow-xl transition-all duration-300 " href="/course">
+                            <Link
+                                to="/course"
+                                className="btn btn-secondary w-fit relative overflow-hidden px-7 py-4 rounded-xl font-semibold text-white sm:mb-4
+             bg-linear-to-r from-pink-400 via-pink-500 to-purple-500
+             hover:scale-105 hover:shadow-xl transition-all duration-300"
+                            >
                                 Get Started →
-                            </a>
+                            </Link>
                         </div>
 
 
