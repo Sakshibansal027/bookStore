@@ -8,7 +8,7 @@ import userRoute from "./route/user.route.js";
 const app = express();
 app.use(cors({
   origin: [
-    "https://bookstore4u.netlify.app" // Netlify frontend URL
+    "https://bookstore-frontend-2pvl.onrender.com/"
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
